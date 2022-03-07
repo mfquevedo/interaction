@@ -1,0 +1,16 @@
+body {
+  margin-top: 30px;
+  margin-right: 0px;
+  margin-left: 40px;
+  background-color: pink;
+  font-family: pragmatica, sans-serif;
+
+}
+
+h1 {
+  font-size: 40px;
+  font-style: normal;
+  color: #black;
+  line-height: 30px;
+  text-transform: none;
+}
