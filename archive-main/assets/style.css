@@ -80,4 +80,27 @@ figure {
 	overflow-y: hidden;
 }
 
+figure.sidebar-link :hover{
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+    opacity:70%;
+
+}
+
+figure.sidebar-link1 :hover{
+  background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+    opacity:70%;
+
+}
+
+figure.sidebar-link2 :hover{
+  background-image linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+    opacity:70%;
+
+}
+
+figure.sidebar-link3 :hover{
+  background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+    opacity:70%;
+
+}
 /* Clear them out once you’ve got your channel plugged in! */
