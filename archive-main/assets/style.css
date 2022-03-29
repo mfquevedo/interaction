@@ -44,7 +44,41 @@ a {
 }
 
 p {
-  display: none;
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  margin:none;
+  text-align: center;
+  display:hidden;
+  font-size: 20px;
+  justify-content:center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:transparent;
+}
+
+p:hover {
+  position: absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  margin:none;
+  text-align: center;
+  display:block;
+  font-size: 20px;
+  justify-content:center;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color:white;
+}
+
+p.hide :hover {
+  display:none;
 }
 
 #channel-title {
@@ -59,9 +93,7 @@ p {
 
 figcaption {
   position: absolute;
-  bottom: 5%;
-  left: 5%;
-  right: 5%;
+  text-align: center;
 }
 
 body {
@@ -87,6 +119,7 @@ figure {
 	position: relative;
 	overflow-y: hidden;
 }
+
 
 figure.sidebar-link :hover{
   background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
